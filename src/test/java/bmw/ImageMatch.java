@@ -22,7 +22,7 @@ public class ImageMatch
 		System.out.println("enter phone number");
 		String phno=sc.nextLine();
 		// convert image to Base64 String
-		File f=new File("D:\\batch249\\appiumexamples\\phone.png");
+		File f=new File("D:\\automation\\appiumexamples\\phone.png");
 		Path path=f.toPath();
 		String x=Base64.getEncoder().encodeToString(Files.readAllBytes(path));
 		System.out.println(x);
