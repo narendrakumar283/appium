@@ -78,7 +78,7 @@ public class Upload_Delete_Photo
 		    }
 		    Thread.sleep(5000);
 
-		    File img=new File("D:\\batch249\\appiumexamples\\volume.png");
+		    File img=new File("D:\\automatio\\appiumexamples\\volume.png");
 		    driver.pushFile("/mnt/sdcard/Pictures/"+img.getName(),img);
 		    Thread.sleep(5000);
 		    ExpectedCondition condition=ExpectedConditions.numberOfElementsToBe(photo,1);
